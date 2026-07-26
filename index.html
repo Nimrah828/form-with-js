@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="form-box">
+
+<h1>STUDENT REGISTRATION</h1>
+
+<form id="form">
+
+<div class="row">
+
+<div class="inputBox">
+<label>Student Name</label>
+<input type="text" id="name">
+<small id="nameError"></small>
+</div>
+
+<div class="inputBox">
+<label>Father Name</label>
+<input type="text" id="father">
+<small id="fatherError"></small>
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="inputBox">
+<label>Age</label>
+<input type="number" id="age">
+<small id="ageError"></small>
+</div>
+
+<div class="inputBox">
+<label>Email</label>
+<input type="email" id="email">
+<small id="emailError"></small>
+</div>
+
+</div>
+
+<div class="inputBox">
+<label>Course</label>
+
+<select id="course">
+
+<option>Select Course</option>
+<option>Computer Science</option>
+<option>Web Development</option>
+<option>Graphic Designing</option>
+<option>Artificial Intelligence</option>
+
+</select>
+
+<small id="courseError"></small>
+
+</div>
+
+<div class="buttons">
+
+<button type="submit">REGISTER</button>
+
+<button type="reset">RESET</button>
+
+</div>
+
+</form>
+
+</div>
+
+<div class="details" id="details">
+
+<h2>REGISTRATION DETAILS</h2>
+
+<p><b>Student Name:</b> <span id="dName"></span></p>
+
+<p><b>Father Name:</b> <span id="dFather"></span></p>
+
+<p><b>Age:</b> <span id="dAge"></span></p>
+
+<p><b>Email:</b> <span id="dEmail"></span></p>
+
+<p><b>Course:</b> <span id="dCourse"></span></p>
+
+<p><b>Registration Date:</b> <span id="date"></span></p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
